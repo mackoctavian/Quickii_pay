@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/livecanvas-team/ninjabootstrap/dist/css/bootstrap.min.css"
+      media="all"
+    />
+    <link rel="stylesheet" href="style/main.css" media="all" />
+  </head>
+  <body>
+    <div class="container py-6">
+      <!-- lazily load the Swiper CSS file -->
+      <link
+        rel="preload"
+        href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+        as="style"
+        onload="this.onload=null;this.rel='stylesheet'"
+      />
+
+      <!-- lazily load the Swiper JS file -->
+      <script
+        defer="defer"
+        src="https://unpkg.com/swiper@8/swiper-bundle.min.js"
+        onload="initializeSwiperRANDOMID();"
+      ></script>
+
+      <!-- lc-needs-hard-refresh -->
+
+      <script>
+        function initializeSwiperRANDOMID() {
+          // Launch SwiperJS
+          var swiper = new Swiper(".mySwiper-RANDOMID", {
+            grabCursor: true,
+            pagination: {
+              el: ".swiper-pagination-RANDOMID",
+              clickable: true,
+            },
+          });
+        }
+      </script>
+
+      <div class="row align-items-center py-2">
+        <div class="col-xl-4 mb-5 text-center text-xl-start">
+          <div class="lc-block mb-3">
+            <div editable="rich">
+              <h1 class="fw-bold display-6">
+                Get to know what our clients say about us
+              </h1>
+            </div>
+          </div>
+          <div class="lc-block mb-4">
+            <div editable="rich">
+              <p class="fw-light rfs-10">
+                Customers are Awesome. Check what our clients are saying about
+                us.
+              </p>
+            </div>
+          </div>
+
+          <!-- <div class="lc-block">
+				<a class="btn btn-primary" href="#" role="button">Learn More</a>
+			</div> -->
+        </div>
+
+        <div class="col-xl-8 position-relative">
+          <img
+            src="https://cdn.livecanvas.com/media/svg/fffuel/svg-shape-11.svg"
+            width="256"
+            height="256"
+            srcset=""
+            sizes=""
+            alt="Made by fffuel.com"
+            class="d-none d-xl-block position-absolute top-100 start-0 translate-middle mt-n5 wp-image-2412"
+            loading="lazy"
+          />
+
+          <!-- Slider main container -->
+          <div class="container swiper mySwiper-RANDOMID position-relative">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper mb-5">
+              <!-- Slides -->
+              <div class="swiper-slide lc-block">
+                <div class="row row-cols-1 row-cols-lg-2 g-4">
+                  <div class="col">
+                    <div
+                      class="lc-block card card-cover h-100 overflow-hidden text-white rounded-5 shadow-lg"
+                      lc-helper="background"
+                      style="
+                        background-image: url(https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=3164&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+                        background-size: cover;
+                      "
+                    >
+                      <div
+                        class="d-flex flex-column h-30 p-5 pb-3 text-white text-shadow-1"
+                      >
+                      
+                      
+                        <div class="lc-block pt-5 mt-5 mb-4">
+                          <div editable="rich" class="text-center">
+                            <h4 class="lh-1 fw-bold">
+                              24Twenty has changed the game in terms of
+                              simplicity, and certainly been a lifesaver for
+                              expat living
+                            </h4>
+                            <div
+                              class="lc-block mb-4 bg-light text-dark rounded py-3 w-100 mx-auto mt-5"
+                            >
+                              <h5 class="" editable="inline">Mack Octavian</h5>
+                              <!-- <a href="../pricing.html" class="btn btn-dark me-2 mx-3 rounded-pill">Send</a> -->
+                            </div>
+                          </div>
+                        </div>
+                        <!-- <ul class="lc-block d-flex list-unstyled mt-auto ms-auto"><a class="btn btn-link btn-sm text-white " href="#" role="button">Read more</a></ul> -->
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div
+                      class="lc-block card card-cover h-100 overflow-hidden text-white rounded-5 shadow-lg"
+                      lc-helper="background"
+                      style="
+                        background-image: url(https://images.unsplash.com/photo-1557682233-43e671455dfa?q=80&w=1700&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+                        background-size: cover;
+                      "
+                    >
+                      <div
+                        class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1"
+                      >
+                        <div class="lc-block pt-5 mt-5 mb-4">
+                          <div editable="rich" class="text-center">
+                            <h4 class="lh-1 fw-bold">
+                              24Twenty has changed the game in terms of
+                              simplicity, and certainly been a lifesaver for
+                              expat living
+                            </h4>
+                            <div
+                              class="lc-block mb-4 bg-light text-dark rounded py-3 w-100 mx-auto mt-5"
+                            >
+                              <h5 class="" editable="inline">Mack Octavian</h5>
+                              <!-- <a href="../pricing.html" class="btn btn-dark me-2 mx-3 rounded-pill">Send</a> -->
+                            </div>
+                          </div>
+                        </div>
+                        <!-- <ul class="lc-block d-flex list-unstyled mt-auto ms-auto"><a class="btn btn-link btn-sm text-white " href="#" role="button">Read more</a></ul> -->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide lc-block">
+                <div class="row row-cols-1 row-cols-lg-2 g-4">
+                  <div class="col">
+                    <div
+                      class="lc-block card card-cover h-100 overflow-hidden text-white rounded-5 shadow-lg"
+                      lc-helper="background"
+                      style="
+                        background-image: url(https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=3164&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+                        background-size: cover;
+                      "
+                    >
+                      <div
+                        class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1"
+                      >
+                        <div class="lc-block pt-5 mt-5 mb-4">
+                          <div editable="rich" class="text-center">
+                            <h4 class="lh-1 fw-bold">
+                              24Twenty has changed the game in terms of
+                              simplicity, and certainly been a lifesaver for
+                              expat living
+                            </h4>
+                            <div
+                              class="lc-block mb-4 bg-light text-dark rounded py-3 w-100 mx-auto mt-5"
+                            >
+                              <h5 class="" editable="inline">Mack Octavian</h5>
+                              <!-- <a href="../pricing.html" class="btn btn-dark me-2 mx-3 rounded-pill">Send</a> -->
+                            </div>
+                          </div>
+                        </div>
+                        <!-- <ul class="lc-block d-flex list-unstyled mt-auto ms-auto"><a class="btn btn-link btn-sm text-white " href="#" role="button">Read more</a></ul> -->
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div
+                      class="lc-block card card-cover h-100 overflow-hidden text-white rounded-5 shadow-lg"
+                      lc-helper="background"
+                      style="
+                        background-image: url(https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=3164&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+                        background-size: cover;
+                      "
+                    >
+                      <div
+                        class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1"
+                      >
+                        <div class="lc-block pt-5 mt-5 mb-4">
+                          <div editable="rich" class="text-center">
+                            <h4 class="lh-1 fw-bold">
+                              24Twenty has changed the game in terms of
+                              simplicity, and certainly been a lifesaver for
+                              expat living
+                            </h4>
+                            <div
+                              class="lc-block mb-4 bg-light text-dark rounded py-3 w-100 mx-auto mt-5"
+                            >
+                              <h5 class="" editable="inline">Mack Octavian</h5>
+                              <!-- <a href="../pricing.html" class="btn btn-dark me-2 mx-3 rounded-pill">Send</a> -->
+                            </div>
+                          </div>
+                        </div>
+                        <!-- <ul class="lc-block d-flex list-unstyled mt-auto ms-auto"><a class="btn btn-link btn-sm text-white " href="#" role="button">Read more</a></ul> -->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide lc-block">
+                <div class="row row-cols-1 row-cols-lg-2 g-4">
+                  <div class="col">
+                    <div
+                      class="lc-block card card-cover h-100 overflow-hidden text-white rounded-5 shadow-lg"
+                      lc-helper="background"
+                      style="
+                        background-image: url(https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=3164&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+                        background-size: cover;
+                      "
+                    >
+                      <div
+                        class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1"
+                      >
+                        <div class="lc-block pt-5 mt-5 mb-4">
+                          <div editable="rich" class="text-center">
+                            <h4 class="lh-1 fw-bold">
+                              24Twenty has changed the game in terms of
+                              simplicity, and certainly been a lifesaver for
+                              expat living
+                            </h4>
+                            <div
+                              class="lc-block mb-4 bg-light text-dark rounded py-3 w-100 mx-auto mt-5"
+                            >
+                              <h5 class="" editable="inline">Mack Octavian</h5>
+                              <!-- <a href="../pricing.html" class="btn btn-dark me-2 mx-3 rounded-pill">Send</a> -->
+                            </div>
+                          </div>
+                        </div>
+                        <!-- <ul class="lc-block d-flex list-unstyled mt-auto ms-auto"><a class="btn btn-link btn-sm text-white " href="#" role="button">Read more</a></ul> -->
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div
+                      class="lc-block card card-cover h-100 overflow-hidden text-white rounded-5 shadow-lg"
+                      lc-helper="background"
+                      style="
+                        background-image: url(https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=3164&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+                        background-size: cover;
+                      "
+                    >
+                      <div
+                        class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1"
+                      >
+                        <div class="lc-block pt-5 mt-5 mb-4">
+                          <div editable="rich" class="text-center">
+                            <h4 class="lh-1 fw-bold">
+                              24Twenty has changed the game in terms of
+                              simplicity, and certainly been a lifesaver for
+                              expat living
+                            </h4>
+                            <div
+                              class="lc-block mb-4 bg-light text-dark rounded py-3 w-100 mx-auto mt-5"
+                            >
+                              <h5 class="" editable="inline">Mack Octavian</h5>
+                              <!-- <a href="../pricing.html" class="btn btn-dark me-2 mx-3 rounded-pill">Send</a> -->
+                            </div>
+                          </div>
+                        </div>
+                        <!-- <ul class="lc-block d-flex list-unstyled mt-auto ms-auto"><a class="btn btn-link btn-sm text-white " href="#" role="button">Read more</a></ul> -->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination-RANDOMID"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
